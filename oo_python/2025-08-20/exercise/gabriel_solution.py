@@ -1,0 +1,33 @@
+def pegar_arquivo(path: str):
+    data = []
+    with open(path,'r') as arq:
+        data = arq.readlines()
+    
+    return data
+
+
+PATH = 'calorias.txt'
+
+data = pegar_arquivo(PATH)
+
+elfos = []
+
+inicio, fim = 0, 0
+
+for itm in range(len(data)):
+    elfo = f'elfo_{itm}'
+
+    if data[itm] == '\n':
+        elfos.append(
+            {
+                elfo: [int(kal.strip()) for kal in data[inicio:itm]]
+            }
+        )
+        inicio = itm + 1
+
+    elif itm == len(data) - 1:
+        elfos.append(
+            { elfo: [int(kal.strip()) for kal in data[inicio:itm+1] if kal.strip()] }
+        )
+
+print(elfos)

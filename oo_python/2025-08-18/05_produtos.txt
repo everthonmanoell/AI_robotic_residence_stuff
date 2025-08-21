@@ -1,0 +1,18 @@
+PROD0001 | Notebook Dell Inspiron | 2979.27 | 67
+PROD0002 | Smartphone Samsung Galaxy A54 | 680.53 | 18
+PROD0003 | Fone de Ouvido Bluetooth JBL | 2907.31 | 42
+PROD0004 | Mouse Logitech Wireless | 694.74 | 25
+PROD0005 | Teclado Mecânico Redragon | 3485.93 | 25
+PROD0006 | Monitor LG 24 Polegadas | 1776.11 | 31
+PROD0007 | Cadeira Gamer DXRacer | 3480.21 | 36
+PROD0008 | Mesa de Escritório MDF | 3425.84 | 51
+PROD0009 | Impressora HP LaserJet | 1906.92 | 5
+PROD0010 | HD Externo Seagate 1TB | 1113.83 | 80
+PROD0011 | SSD Kingston 480GB | 1494.72 | 52
+PROD0012 | Placa de Vídeo NVIDIA RTX 4060 | 2804.69 | 40
+PROD0013 | Memória RAM Corsair 16GB | 2804.87 | 38
+PROD0014 | Cabo HDMI 2.0 2m | 390.04 | 39
+PROD0015 | Carregador Portátil 10000mAh | 1058.66 | 61
+PROD0016 | Smartwatch Amazfit Bip | 752.49 | 19
+PROD0017 | Caixa de Som Alexa Echo Dot | 3039.57 | 48
+PROD0018 | Webcam Logitech C920 | 886.81 | 44
