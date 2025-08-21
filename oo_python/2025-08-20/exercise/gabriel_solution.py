@@ -18,16 +18,22 @@ for itm in range(len(data)):
     elfo = f'elfo_{itm}'
 
     if data[itm] == '\n':
+        carga = [int(kal.strip()) for kal in data[inicio:itm]]
         elfos.append(
             {
-                elfo: [int(kal.strip()) for kal in data[inicio:itm]]
+                elfo: carga,
+                'Total_kal': sum(carga)
             }
         )
         inicio = itm + 1
 
     elif itm == len(data) - 1:
+        carga = [int(kal.strip()) for kal in data[inicio:itm]]
         elfos.append(
-            { elfo: [int(kal.strip()) for kal in data[inicio:itm+1] if kal.strip()] }
+            { 
+                elfo: carga,
+                'Total_kal': sum(carga) 
+            }
         )
 
 print(elfos)
