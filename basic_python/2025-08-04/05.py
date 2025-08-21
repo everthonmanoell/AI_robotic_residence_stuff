@@ -1,0 +1,9 @@
+numero1 = 100
+numero2 = 200
+numero3 = 7.85
+text1 = "100"
+text2 = "200"
+print(numero1 + numero2)
+print(text1 + text2)
+print(text1 + numero2)
+print(numero1 + text2)
