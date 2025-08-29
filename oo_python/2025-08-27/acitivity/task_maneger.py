@@ -168,7 +168,7 @@ class GerenciadorTarefas():
 
 
 #=============================================================
-# Parte 5 - Utilitário de Parsing
+# Parte 5 - Utilitário de Parsing 
 #=============================================================
 class ParserTarefas:
 
