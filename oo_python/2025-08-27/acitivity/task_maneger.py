@@ -26,18 +26,19 @@ class Prioridade(Enum):
 #=============================================================
 class NaoVazio:
     def __set_name__(self, owner, name):
-        self.name = name 
+        self.public_name = name
+        self.private_name = '_' + name
 
     def __get__(self, instance, owner):
-        return instance.__dict__[self.name]
+        value = getattr(instance, self.private_name)
+        return value
     
     def __set__(self, instance, value):
         if not isinstance(value, str):
             raise ValueError(f"O atributo '{self.name}' deve ser uma string.")
         if len(value.strip()) == 0:
             raise ValueError(f"O atributo '{self.name}' não pode ser vazio ou conter apenas espaços.")
-        instance.__dict__[self.name] = value
-
+        setattr(instance, self.private_name, value.strip())
 class DataNaoPassada():
     def __set_name__(self, owner, name):
         self.name = name
@@ -70,21 +71,6 @@ class Tarefa():
         self.prioridade = prioridade
         self.concluida = concluida
     
-    @property
-    def nome(self):
-        return self.nome
-    
-    @property
-    def prazo(self):
-        return self.prazo
-    
-    @property
-    def prioridade(self):
-        return self.prioridade
-    
-    @property
-    def concluida(self):
-        return self.concluida
 
     def __str__(self):
         status = "Concluída: ✓ " if self.concluida else "Pendente"
@@ -93,7 +79,7 @@ class Tarefa():
 #=============================================================
 # Parte 4 - Gerenciador de Tarefas
 #=============================================================
-def GerenciadorTarefas():
+class GerenciadorTarefas():
     lista_tarefas = field(default_factory=list)
 
     def __init__(self):
@@ -107,6 +93,7 @@ def GerenciadorTarefas():
         
     def listar_tarefas(self, incluir_concluidas = True, enumerar = True, ordem_por='propriedade'):
         tarefas = self.lista_tarefas
+        
 
 
         # filtrar concluídas se necessário
@@ -119,6 +106,8 @@ def GerenciadorTarefas():
             tarefas = sorted(tarefas, key=lambda t: t.prioridade.peso, reverse=True)
         elif ordem_por.lower() == "prazo":
             tarefas = sorted(tarefas, key=lambda t: t.prazo)
+        
+        return tarefas
 
     ## Persistência
     def salvar_json(self, caminho='./tarefas.json'):
@@ -221,6 +210,7 @@ class ParserTarefas:
 
 if __name__ == "__main__":
     from datetime import datetime, timedelta
+    gerenciador = GerenciadorTarefas()
 
     while True:
         print('=== Gerenciador de Tarefas ===')
@@ -235,9 +225,9 @@ if __name__ == "__main__":
         print('9) Reabrir tarefa')
         print('0) Sair')
         escolha = input('Escolha uma opção: ').strip()
+        # escolha = '5'
 
-        gerenciador = GerenciadorTarefas()
-
+        
         if escolha == '1':
             log = gerenciador.carregar_csv()
             if log != None:
@@ -258,16 +248,17 @@ if __name__ == "__main__":
             nome = input("Nome da tarefa: ").strip()
             prazo = input('Digite o prazo no formado YYYY-MM-DD | DD/MM/AAAA: ' )
             prioridade = input('Digite a priodade BAIXA | MEDIA | ALTA: ').strip().upper()
+            
             try:
                 tarefa = Tarefa(
                     nome=nome,
                     prazo=ParserTarefas._parse_data_iso(prazo),
                     prioridade=ParserTarefas._parse_prioridade(prioridade)
                 )
-
-            except:
-                raise ValueError("Erro ao criar tarefa. Verifique os dados informados.")
-            gerenciador.adicionar_tarefa(tarefa)
+                gerenciador.adicionar_tarefa(tarefa)
+            except ValueError as e:
+                raise ValueError(f"Erro ao criar tarefa. Verifique os dados informados. {e.__traceback__}")
+            
             print(f'Tarefa {tarefa.nome!r} adicionada com sucesso.')
         elif escolha == '6':
             tarefas = gerenciador.listar_tarefas(ordem_por='propriedade')
