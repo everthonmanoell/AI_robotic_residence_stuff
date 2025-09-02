@@ -5,7 +5,7 @@ class Sujeito:
     def __init__(self):
         self._observers = []
 
-    def adicionar_observer(self, observer):
+    def adicionar_observer(self, observer: 'Observer'):
         self._observers.append(observer)
     
     def remover_observer(self, observer):

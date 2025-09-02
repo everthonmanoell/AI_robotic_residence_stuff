@@ -1,6 +1,4 @@
-
 from transitions import Machine
-
 
 class Semaforo: 
     def on_enter_VERMELHO(self):
