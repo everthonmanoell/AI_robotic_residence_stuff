@@ -1,0 +1,7 @@
+[console_scripts]
+listener = py_pubsub.subscriber_member_function:main
+my_turtle = py_pubsub.turtle_subscriber_publisher:main
+talker = py_pubsub.publisher_member_function:main
+tiago = py_pubsub.tiago:main
+tiago_laser = py_pubsub.tiago_sub_laser:main
+

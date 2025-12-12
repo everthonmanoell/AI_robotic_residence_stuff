@@ -1,0 +1,29 @@
+[0.845s] Invoking command in '/home/emsi/rob2_ws/src/py_pubsub': PYTHONPATH=/home/emsi/rob2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emsi/rob2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/emsi/rob2_ws/build/py_pubsub/build install --record /home/emsi/rob2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.052s] running egg_info
+[1.053s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.053s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.053s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.053s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.053s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.055s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.055s] adding license file 'LICENSE'
+[1.056s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.056s] running build
+[1.056s] running build_py
+[1.056s] copying py_pubsub/tiago_sub_laser.py -> /home/emsi/rob2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.056s] running install
+[1.056s] running install_lib
+[1.057s] copying /home/emsi/rob2_ws/build/py_pubsub/build/lib/py_pubsub/tiago_sub_laser.py -> /home/emsi/rob2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.057s] byte-compiling /home/emsi/rob2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/tiago_sub_laser.py to tiago_sub_laser.cpython-310.pyc
+[1.058s] running install_data
+[1.058s] running install_egg_info
+[1.059s] removing '/home/emsi/rob2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.059s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/emsi/rob2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[1.060s] running install_scripts
+[1.078s] Installing listener script to /home/emsi/rob2_ws/install/py_pubsub/lib/py_pubsub
+[1.078s] Installing my_turtle script to /home/emsi/rob2_ws/install/py_pubsub/lib/py_pubsub
+[1.078s] Installing talker script to /home/emsi/rob2_ws/install/py_pubsub/lib/py_pubsub
+[1.078s] Installing tiago script to /home/emsi/rob2_ws/install/py_pubsub/lib/py_pubsub
+[1.078s] Installing tiago_laser script to /home/emsi/rob2_ws/install/py_pubsub/lib/py_pubsub
+[1.078s] writing list of installed files to '/home/emsi/rob2_ws/build/py_pubsub/install.log'
+[1.111s] Invoked command in '/home/emsi/rob2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/emsi/rob2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emsi/rob2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/emsi/rob2_ws/build/py_pubsub/build install --record /home/emsi/rob2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

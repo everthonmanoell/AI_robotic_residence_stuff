@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/emsi/rob2_ws/build/my_pkg1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emsi/rob2_ws/install/tiago_pkg:/home/emsi/rob2_ws/install/py_pubsub:/home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/emsi/rob2_ws/build/my_pkg1 -- -j8 -l8
+[0.288s] [100%] Built target my_node
+[0.596s] Invoked command in '/home/emsi/rob2_ws/build/my_pkg1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emsi/rob2_ws/install/tiago_pkg:/home/emsi/rob2_ws/install/py_pubsub:/home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/emsi/rob2_ws/build/my_pkg1 -- -j8 -l8
+[0.605s] Invoking command in '/home/emsi/rob2_ws/build/my_pkg1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emsi/rob2_ws/install/tiago_pkg:/home/emsi/rob2_ws/install/py_pubsub:/home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/emsi/rob2_ws/build/my_pkg1
+[0.612s] -- Install configuration: ""
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/lib/my_pkg1/my_node
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/ament_index/resource_index/package_run_dependencies/my_pkg1
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/ament_index/resource_index/parent_prefix_path/my_pkg1
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/environment/ament_prefix_path.sh
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/environment/ament_prefix_path.dsv
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/environment/path.sh
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/environment/path.dsv
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/local_setup.bash
+[0.612s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/local_setup.sh
+[0.613s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/local_setup.zsh
+[0.613s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/local_setup.dsv
+[0.613s] -- Installing: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/package.dsv
+[0.613s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/ament_index/resource_index/packages/my_pkg1
+[0.613s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/cmake/my_pkg1Config.cmake
+[0.613s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/cmake/my_pkg1Config-version.cmake
+[0.613s] -- Up-to-date: /home/emsi/rob2_ws/install/my_pkg1/share/my_pkg1/package.xml
+[0.614s] Invoked command in '/home/emsi/rob2_ws/build/my_pkg1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emsi/rob2_ws/install/tiago_pkg:/home/emsi/rob2_ws/install/py_pubsub:/home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/emsi/rob2_ws/build/my_pkg1

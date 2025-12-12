@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/tiago_pkg/tiago_pkg.egg-info/PKG-INFO
+../../build/tiago_pkg/tiago_pkg.egg-info/SOURCES.txt
+../../build/tiago_pkg/tiago_pkg.egg-info/dependency_links.txt
+../../build/tiago_pkg/tiago_pkg.egg-info/entry_points.txt
+../../build/tiago_pkg/tiago_pkg.egg-info/requires.txt
+../../build/tiago_pkg/tiago_pkg.egg-info/top_level.txt
+../../build/tiago_pkg/tiago_pkg.egg-info/zip-safe
+resource/tiago_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+tiago_pkg/__init__.py
+tiago_pkg/tiago.py

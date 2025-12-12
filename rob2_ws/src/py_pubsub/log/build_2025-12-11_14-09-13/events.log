@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000360] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000382] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099750] (-) TimerEvent: {}
+[0.200031] (-) TimerEvent: {}
+[0.300459] (-) TimerEvent: {}
+[0.401040] (-) TimerEvent: {}
+[0.501253] (-) TimerEvent: {}
+[0.601552] (-) TimerEvent: {}
+[0.642378] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/py_pubsub', 'build', '--build-base', '/home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build', 'install', '--record', '/home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/emsi/rob2_ws/src/py_pubsub', 'env': {'PYENV_VIRTUALENV_INIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'emsi', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/emsi', 'OLDPWD': '/home/emsi/rob2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '2070', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2499', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3221', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'emsi', 'JOURNAL_STREAM': '8:17890', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'emsi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/emsi/.pyenv/plugins/pyenv-virtualenv/shims:/home/emsi/.pyenv/shims:/home/emsi/.pyenv/bin:/opt/ros/humble/bin:/home/emsi/.pyenv/bin:/home/emsi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pc036-ubu:@/tmp/.ICE-unix/2289,unix/pc036-ubu:/tmp/.ICE-unix/2289', 'INVOCATION_ID': 'da62ee8d2a894eaaa0a683bf27ef23db', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.CEOHH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:fe37ad81-a4f0-47f6-b879-884df18a2296', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/emsi/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.701657] (-) TimerEvent: {}
+[0.801865] (-) TimerEvent: {}
+[0.842684] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.843082] (py_pubsub) StdoutLine: {'line': b'creating build/py_pubsub/py_pubsub.egg-info\n'}
+[0.843328] (py_pubsub) StdoutLine: {'line': b'writing build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.843606] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.843740] (py_pubsub) StdoutLine: {'line': b'writing entry points to build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.843851] (py_pubsub) StdoutLine: {'line': b'writing requirements to build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.843912] (py_pubsub) StdoutLine: {'line': b'writing top-level names to build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.844093] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.847339] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.847522] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.847864] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.847967] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.848007] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.848150] (py_pubsub) StdoutLine: {'line': b'creating /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build\n'}
+[0.848201] (py_pubsub) StdoutLine: {'line': b'creating /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib\n'}
+[0.848253] (py_pubsub) StdoutLine: {'line': b'creating /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.848306] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.848357] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/turtle_subscriber_publisher.py -> /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.848421] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.848479] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/tiago.py -> /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.848538] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.848676] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.848913] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.849441] (py_pubsub) StdoutLine: {'line': b'creating /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.849509] (py_pubsub) StdoutLine: {'line': b'copying /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.849642] (py_pubsub) StdoutLine: {'line': b'copying /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/turtle_subscriber_publisher.py -> /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.849757] (py_pubsub) StdoutLine: {'line': b'copying /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.849799] (py_pubsub) StdoutLine: {'line': b'copying /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/tiago.py -> /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.849835] (py_pubsub) StdoutLine: {'line': b'copying /home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.850061] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[0.850341] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/turtle_subscriber_publisher.py to turtle_subscriber_publisher.cpython-310.pyc\n'}
+[0.850787] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[0.851009] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/tiago.py to tiago.cpython-310.pyc\n'}
+[0.851262] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.851362] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.851455] (py_pubsub) StdoutLine: {'line': b'creating /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/share/ament_index\n'}
+[0.851522] (py_pubsub) StdoutLine: {'line': b'creating /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.851609] (py_pubsub) StdoutLine: {'line': b'creating /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.851673] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.851735] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/share/py_pubsub\n'}
+[0.851796] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.852872] (py_pubsub) StdoutLine: {'line': b'Copying build/py_pubsub/py_pubsub.egg-info to /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[0.853299] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.872609] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/py_pubsub\n'}
+[0.872941] (py_pubsub) StdoutLine: {'line': b'Installing my_turtle script to /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/py_pubsub\n'}
+[0.873035] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/emsi/rob2_ws/src/py_pubsub/install/py_pubsub/lib/py_pubsub\n'}
+[0.873327] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/emsi/rob2_ws/src/py_pubsub/build/py_pubsub/install.log'\n"}
+[0.901993] (-) TimerEvent: {}
+[0.904213] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.915401] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.915877] (-) EventReactorShutdown: {}

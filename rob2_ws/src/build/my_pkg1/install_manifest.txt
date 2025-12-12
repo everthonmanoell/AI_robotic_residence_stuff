@@ -1,0 +1,16 @@
+/home/emsi/rob2_ws/src/install/my_pkg1/lib/my_pkg1/my_node
+/home/emsi/rob2_ws/src/install/my_pkg1/share/ament_index/resource_index/package_run_dependencies/my_pkg1
+/home/emsi/rob2_ws/src/install/my_pkg1/share/ament_index/resource_index/parent_prefix_path/my_pkg1
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/environment/ament_prefix_path.sh
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/environment/ament_prefix_path.dsv
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/environment/path.sh
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/environment/path.dsv
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/local_setup.bash
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/local_setup.sh
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/local_setup.zsh
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/local_setup.dsv
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/package.dsv
+/home/emsi/rob2_ws/src/install/my_pkg1/share/ament_index/resource_index/packages/my_pkg1
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/cmake/my_pkg1Config.cmake
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/cmake/my_pkg1Config-version.cmake
+/home/emsi/rob2_ws/src/install/my_pkg1/share/my_pkg1/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/home/emsi/rob2_ws/src/build/my_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emsi/rob2_ws/src/my_pkg1 -DCMAKE_INSTALL_PREFIX=/home/emsi/rob2_ws/src/install/my_pkg1
+Invoked command in '/home/emsi/rob2_ws/src/build/my_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/emsi/rob2_ws/src/my_pkg1 -DCMAKE_INSTALL_PREFIX=/home/emsi/rob2_ws/src/install/my_pkg1
+Invoking command in '/home/emsi/rob2_ws/src/build/my_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emsi/rob2_ws/src/build/my_pkg1 -- -j8 -l8
+Invoked command in '/home/emsi/rob2_ws/src/build/my_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/emsi/rob2_ws/src/build/my_pkg1 -- -j8 -l8
+Invoking command in '/home/emsi/rob2_ws/src/build/my_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emsi/rob2_ws/src/build/my_pkg1
+Invoked command in '/home/emsi/rob2_ws/src/build/my_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/emsi/rob2_ws/src/build/my_pkg1
